@@ -1,76 +1,81 @@
-# 📅 Week 1 Learning Planner (Markdown)
+# 📅 Week 1 Learning Planner – Focused on Pandas
 
 ## Overview:
-This week focuses on getting hands-on with Python, pandas, statistics basics, and visualizations. You’ll also simulate real-world concepts using notebooks.
+This week is fully dedicated to mastering **Pandas**, a key library for data analysis in Python. You'll learn how to create, manipulate, clean, and analyze data using hands-on practice.
 
 ---
 
 ### 🟪 Sunday (2–3 hrs)
-**Topic**: Data Structures & Python Refresher  
+**Topic**: Intro to Pandas & Series  
 **Tasks**:
-- Review Python basics: lists, dicts, loops, functions
-- Explore pandas DataFrames and numpy arrays
-- Setup GitHub repo: `data-science-journal`
+- Install pandas and import it
+- Create and explore `Series` and `DataFrames`
+- Use methods: `head()`, `tail()`, `info()`, `describe()`
 
-📁 Notebook: `01_data_structures.ipynb`
+📁 Notebook: `01_pandas_intro.ipynb`
 
 ---
 
 ### 🟪 Monday (1 hr)
-**Topic**: Exploratory Data Analysis (EDA)  
+**Topic**: DataFrame Indexing & Selection  
 **Tasks**:
-- Use `describe()`, `value_counts()`
-- Draw boxplots, histograms
+- Access columns and rows using `loc[]`, `iloc[]`
+- Filter rows using conditions
+- Practice slicing and Boolean masks
 
-📁 Notebook: `02_eda_basics.ipynb`
+📁 Notebook: `02_indexing_filtering.ipynb`
 
 ---
 
 ### 🟪 Tuesday (1 hr)
-**Topic**: Visualizing Distributions  
+**Topic**: Data Cleaning & Manipulation  
 **Tasks**:
-- Plot with seaborn (`histplot`, `kdeplot`)
-- Compare normal vs skewed distributions
+- Handle missing data with `isna()`, `fillna()`, `dropna()`
+- Rename columns, convert data types
+- Add, update, and delete columns
 
-📁 Notebook: `03_distributions.ipynb`
+📁 Notebook: `03_data_cleaning.ipynb`
 
 ---
 
 ### 🟪 Wednesday (1 hr)
-**Topic**: Sampling & Randomness  
+**Topic**: Sorting, Aggregation & Grouping  
 **Tasks**:
-- Simulate sampling from a population using `numpy.random`
-- Explore bias and variability
+- Use `sort_values()` and `sort_index()`
+- Perform aggregations: `mean()`, `sum()`, `count()`
+- Group data using `groupby()`
 
-📁 Notebook: `04_sampling_simulations.ipynb`
+📁 Notebook: `04_groupby_aggregation.ipynb`
 
 ---
 
 ### 🟪 Thursday (1 hr)
-**Topic**: Summary Statistics  
+**Topic**: Merging, Joining, and Concatenation  
 **Tasks**:
-- Calculate and visualize: mean, median, std, var
-- Compare across distributions
+- Merge DataFrames using `merge()` and keys
+- Apply inner/outer/left/right joins
+- Use `concat()` to stack datasets vertically or horizontally
 
-📁 Notebook: `05_summary_stats.ipynb`
+📁 Notebook: `05_merge_concat.ipynb`
 
 ---
 
 ### 🟪 Friday (1 hr)
-**Topic**: Correlation & Covariance  
+**Topic**: Real-World Dataset Practice (Part 1)  
 **Tasks**:
-- Use `.corr()`, `.cov()`
-- Create scatter plots and heatmaps
+- Load a dataset (e.g., Titanic, Iris, or similar)
+- Perform basic EDA and cleaning
+- Document insights
 
-📁 Notebook: `06_correlation_analysis.ipynb`
+📁 Notebook: `06_pandas_project_part1.ipynb`
 
 ---
 
 ### 🟪 Saturday (2–3 hrs)
-**Topic**: Probability & Bayes' Rule  
+**Topic**: Real-World Dataset Practice (Part 2)  
 **Tasks**:
-- Simulate: coin toss, Monty Hall, dice rolls
-- Understand conditional probability
+- Use grouping, aggregations, and pivot tables
+- Finalize data transformation
+- Export clean dataset and reflect on learning
 
-📁 Notebook: `07_probability_simulations.ipynb`
-
+📁 Notebook: `07_pandas_project_part2.ipynb`
